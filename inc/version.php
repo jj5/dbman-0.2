@@ -6,16 +6,16 @@
 define( 'DBMAN_NAME', 'dbman' );
 define( 'DBMAN_CODE', 'dbman' );
 
-//define( 'DBMAN_VERSION', '0.2.3' );
+//define( 'DBMAN_VERSION', '0.2.5' );
 define( 'DBMAN_VERSION_MAJOR', 0 );
 define( 'DBMAN_VERSION_MINOR', 2 );
-define( 'DBMAN_VERSION_PATCH', 3 );
+define( 'DBMAN_VERSION_PATCH', 5 );
 
 define(
   'DBMAN_SVN_DATE',
-  '$Date: 2024-11-06 00:42:44 +1100 (Wed, 06 Nov 2024) $'
+  '$Date: 2024-11-06 00:54:38 +1100 (Wed, 06 Nov 2024) $'
 );
-define( 'DBMAN_SVN_REVISION', '$Revision: 219876532 $' );
+define( 'DBMAN_SVN_REVISION', '$Revision: 97537559 $' );
 define( 'DBMAN_SVN_AUTHOR', '$Author: jj5 $' );
 
-define( 'DBMAN_GIT_DATE', '2024-11-06 00:42:44 +1100 (Wed, 06 Nov 2024)' );
+define( 'DBMAN_GIT_DATE', '2024-11-06 00:54:38 +1100 (Wed, 06 Nov 2024)' );

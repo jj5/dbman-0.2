@@ -5,13 +5,13 @@
 export DBMAN_NAME='dbman';
 export DBMAN_CODE='dbman';
 
-export DBMAN_VERSION='0.2.3';
+export DBMAN_VERSION='0.2.5';
 export DBMAN_VERSION_MAJOR='0';
 export DBMAN_VERSION_MINOR='2';
-export DBMAN_VERSION_PATCH='3';
+export DBMAN_VERSION_PATCH='5';
 
-export DBMAN_SVN_DATE='Date: 2024-11-06 00:42:44 +1100 (Wed, 06 Nov 2024)';
-export DBMAN_SVN_REVISION='Revision: 219876532';
+export DBMAN_SVN_DATE='Date: 2024-11-06 00:54:38 +1100 (Wed, 06 Nov 2024)';
+export DBMAN_SVN_REVISION='Revision: 97537559';
 export DBMAN_SVN_AUTHOR='Author: jj5';
 
-export DBMAN_GIT_DATE='2024-11-06 00:42:44 +1100 (Wed, 06 Nov 2024)';
+export DBMAN_GIT_DATE='2024-11-06 00:54:38 +1100 (Wed, 06 Nov 2024)';
