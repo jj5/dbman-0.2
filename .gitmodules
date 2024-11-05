@@ -1,3 +1,6 @@
 [submodule "ext/mudball-0.6"]
 	path = ext/mudball-0.6
 	url = git@github.com:jj5/mudball-0.6.git
+[submodule "ext/kickass-crypto-0.2"]
+	path = ext/kickass-crypto-0.2
+	url = git@github.com:jj5/kickass-crypto-0.2
