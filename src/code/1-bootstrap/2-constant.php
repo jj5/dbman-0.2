@@ -1,0 +1,54 @@
+<?php
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-11-05 jj5 - trace load if enabled...
+//
+
+if ( defined( 'APP_TRACE_LOAD' ) && APP_TRACE_LOAD ) {
+
+  error_log( "loading: " . __FILE__ );
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-11-05 jj5 - load dependencies...
+//
+
+require_once __DIR__ . '/1-library.php';
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-11-05 jj5 - define version constants...
+//
+
+require_once __DIR__ . '/../../../inc/version.php';
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-11-05 jj5 - path info...
+//
+
+define( 'DBMAN_PATH', realpath( __DIR__ . '/../../../' ) );
+define( 'DBMAN_CONFIG_FILE', 'config.php' );
+define( 'DBMAN_CONFIG_PATH', DBMAN_PATH . '/' . DBMAN_CONFIG_FILE );
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-11-05 jj5 - maintainer info...
+//
+
+define( 'DBMAN_MAINTAINER_USERNAME',  'jj5' );
+define( 'DBMAN_MAINTAINER_EMAIL',     'jj5@jj5.net' );
+define( 'DBMAN_MAINTAINER_NAME',      'John Elliot V');
+define(
+  'DBMAN_MAINTAINER',
+  DBMAN_MAINTAINER_NAME . ' <' . DBMAN_MAINTAINER_EMAIL . '>'
+);
+
+define(
+  'DBMAN_PLEASE_INFORM',
+  'please let the maintainer know: ' . DBMAN_MAINTAINER
+);
+
